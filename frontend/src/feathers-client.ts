@@ -46,7 +46,7 @@ const {
   feathersClient,
   {
     serverAlias: 'api', // optional for working with multiple APIs (this is the default value)
-    idField: 'id', // Must match the id field in your database table/collection
+    idField: '_id', // Must match the id field in your database table/collection
     whitelist: ['$regex', '$options'],
   },
 );
